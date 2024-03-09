@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,13 +14,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
-  threejs,
   redPelicans,
   valomnia,
   caseTunisia,
@@ -48,16 +43,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "CI/CD Integration",
+    icon: mobile,
   },
 ];
 
@@ -99,10 +90,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -136,10 +123,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2022 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the design and development of a dynamic scheduling management platform catering to diverse user profiles.",
+      "Assumed a pivotal role in shaping the architectural framework of the platform, employing a modular and scalable design approach for enhanced flexibility and accommodating a myriad of functionalities.",
+      "Gained hands-on experience with full-stack development, utilizing a range of technologies and tools to deliver a robust and user-friendly solution.",
     ],
   },
 
@@ -150,10 +136,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2021 - September 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and built a web application specializing in contract management and facilitating the selection of phone offers",
+      "Demonstrated a keen understanding of business requirements by translating them into functional and intuitive features within the web application.",
     ],
   },
 ];

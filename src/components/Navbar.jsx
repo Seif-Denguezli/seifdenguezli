@@ -50,7 +50,7 @@ const Navbar = () => {
           </Link>
           <a
             href="https://drive.usercontent.google.com/u/0/uc?id=1OSacocOA6DLmef9GCAHHBPNSunbMbRy0&export=download"
-            className="flex gap-3 bg-[#915EFF] py-2 px-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary tranform duration-300 hover:opacity-80 hover:bg-[#1a6da1] hover:rotate-1 hover:translate-x-1"
+            className="flex gap-3 bg-[#915EFF] py-2 px-3 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary tranform duration-300 hover:opacity-80 hover:bg-[#1a6da1] hover:rotate-1 hover:scale-105"
           >
             <img src={download} alt="logo" className="w-6 h-6 object-contain" />
             <span className="md:block hidden">My resume</span>
