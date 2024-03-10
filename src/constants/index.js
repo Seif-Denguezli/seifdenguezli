@@ -20,6 +20,38 @@ import {
   redPelicans,
   valomnia,
   caseTunisia,
+  materialUi,
+  next,
+  clerk,
+  cloudinary,
+  stripe,
+  sanity,
+  jenkins,
+  sonarqube,
+  nexus,
+  grafana,
+  prometheus,
+  showcase1,
+  showcase2,
+  showcase3,
+  showcase4,
+  showcase5,
+  ai_showcase1,
+  ai_showcase2,
+  ai_showcase3,
+  ai_showcase4,
+  ai_showcase5,
+  ai_showcase6,
+  ai_showcase7,
+  sm_showcase1,
+  sm_showcase2,
+  sm_showcase3,
+  sm_showcase4,
+  sm_showcase5,
+  song_showcase1,
+  song_showcase2,
+  song_showcase3,
+  opti_showcase1,
 } from "../assets";
 
 export const navLinks = [
@@ -171,67 +203,196 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Xplor",
+    header:
+      "Transforming Statistical Data Management: Xplor - Empowering Insights with Seamless SDMX Compliance.",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Xplor is a cutting-edge web platform, offering seamless manipulation, visualization, and sharing of statistical data adhering to the SDMX standard. This robust solution ensures data integrity, advanced SDMX artifact management, and granular visibility, empowering users to explore and analyze datasets with unparalleled flexibility and efficiency.",
     tags: [
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+        image: javascript,
+      },
       {
         name: "react",
         color: "blue-text-gradient",
+        image: reactjs,
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
+        image: mongodb,
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+        image: materialUi,
+      },
+    ],
+    image: showcase2,
+    source_code_link: null,
+    showcase_images: [showcase1, showcase2, showcase3, showcase4, showcase5],
+    website_link: null,
+  },
+  {
+    name: "BetterWithAI",
+    header:
+      "Revolutionize Your Visuals with BetterWithAI - Unleashing AI-Driven Image Transformation SaaS !",
+    description:
+      "Embark on a journey into the future of creative expression with BetterWithAI, a cutting-edge SaaS application. By seamlessly integrating artificial intelligence, Cloudinary, and innovative image processing technologies using Javascript, Typescript, NextJS, and TailwindCSS, BetterWithAI transforms ordinary images into extraordinary visual experiences. Say goodbye to the ordinary and embrace a new era of creativity and efficiency, where AI meets transformative image processing for unprecedented visual impact.",
+    tags: [
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+        image: typescript,
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+        image: next,
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+        image: tailwind,
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+        image: mongodb,
+      },
+      {
+        name: "clerk",
+        color: "blue-text-gradient",
+        image: clerk,
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+        image: stripe,
+      },
+      {
+        name: "cloudinary",
+        color: "pink-text-gradient",
+        image: cloudinary,
+      },
+    ],
+    image: ai_showcase2,
+    source_code_link: "https://github.com/Seif-Denguezli/BetterWithAI",
+    showcase_images: [
+      ai_showcase1,
+      ai_showcase2,
+      ai_showcase3,
+      ai_showcase4,
+      ai_showcase5,
+      ai_showcase6,
+      ai_showcase7,
+    ],
+    website_link: "https://better-with-ai.vercel.app/",
+  },
+  {
+    name: "ShareMe",
+    header:
+      "Share the Moment, Share the World - Introducing ShareMe, Your Dynamic Social Sharing Platform !",
+    description:
+      "Experience the magic of visual connection with ShareMe, an intricately designed social sharing platform. Crafted using Javascript, ReactJS, TailwindCSS, and powered by Sanity, ShareMe transcends traditional boundaries. Immerse yourself in a visual symphony where sharing images becomes an art form. With a user-friendly interface and seamless responsiveness, ShareMe is not just an app; it's a vibrant digital space where your inspirations come to life, connecting you with a global community in a celebration of shared moments.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+        image: javascript,
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+        image: reactjs,
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
+        image: tailwind,
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+        image: sanity,
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sm_showcase1,
+    source_code_link: "https://github.com/Seif-Denguezli/shareme-social",
+    showcase_images: [sm_showcase2, sm_showcase3, sm_showcase4, sm_showcase5],
+    website_link: "https://sd-shareme.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Songify",
+    header:
+      "Discover the Rhythm of the World with Songify - Your Ultimate React.js Music Experience",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Songify, an elegant React.js Music Application, invites you to embark on a musical journey reminiscent of Spotify. Leveraging the power of ReactJS, Tailwind CSS, RapidAPI, and seamlessly integrating ShazamCore API, Songify brings you the latest global music charts. Immerse yourself in the sounds of trending tracks from around the world, creating a harmonious fusion of technology and musical discovery. Click here to experience the rhythm and elevate your music exploration with Songify, where every beat tells a global story.",
     tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+        image: javascript,
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
         color: "green-text-gradient",
+        image: reactjs,
       },
       {
-        name: "scss",
+        name: "redux",
         color: "pink-text-gradient",
+        image: redux,
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: song_showcase1,
+    source_code_link: "https://github.com/Seif-Denguezli/songify",
+    showcase_images: [song_showcase2, song_showcase3],
+    website_link: "https://sd-songify.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Optiflow",
+    header: "Optiflow - Elevating Software Delivery with DevOps Excellence !",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Optiflow, a DevOps-driven masterpiece, redefines the landscape of continuous integration for a cutting-edge Spring Boot and Angular application. Powered by Jenkins, Docker, SonarQube, Nexus, Grafana, and Prometheus, this project is a symphony of efficiency and reliability. From advanced CI/CD strategies to Docker encapsulation, experience the transformative journey where development cycles shrink, collaboration thrives, and software delivery reaches new heights. Explore the alchemy of DevOps, witness seamless integration, and embrace proactive monitoring - Optiflow ensures your application not only runs but soars at peak performance. Welcome to the future of software delivery excellence!",
     tags: [
       {
-        name: "nextjs",
+        name: "jenkins",
         color: "blue-text-gradient",
+        image: jenkins,
       },
       {
-        name: "supabase",
+        name: "sonarqube",
         color: "green-text-gradient",
+        image: sonarqube,
       },
       {
-        name: "css",
+        name: "nexus",
         color: "pink-text-gradient",
+        image: nexus,
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+        image: docker,
+      },
+      {
+        name: "grafana",
+        color: "green-text-gradient",
+        image: grafana,
+      },
+      {
+        name: "prometheus",
+        color: "pink-text-gradient",
+        image: prometheus,
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: opti_showcase1,
+    source_code_link: "https://github.com/Seif-Denguezli/achat-devops",
+    showcase_images: [opti_showcase1],
+    website_link: null,
   },
 ];
 

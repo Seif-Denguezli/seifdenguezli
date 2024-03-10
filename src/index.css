@@ -13,6 +13,14 @@
   color-scheme: dark;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set to transparent */
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
